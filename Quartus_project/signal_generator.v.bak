@@ -1,0 +1,8 @@
+module signal_generator(clk50M, signal_out);
+
+input wire clk50M;
+output wire [7:0] signal_out;
+
+r
+
+endmodule

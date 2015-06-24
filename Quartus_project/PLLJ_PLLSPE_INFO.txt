@@ -1,0 +1,5 @@
+PLL_Name	osc:osc_200M|altpll:altpll_component|osc_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+

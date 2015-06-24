@@ -1,0 +1,107 @@
+EDA Netlist Writer report for signal_generator
+Thu Jun 25 02:15:44 2015
+Quartus II 32-bit Version 11.1 Build 173 11/01/2011 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Thu Jun 25 02:15:44 2015 ;
+; Revision Name             ; signal_generator                      ;
+; Top-level Entity Name     ; signal_generator                      ;
+; Family                    ; Cyclone IV E                          ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; Off                       ;
+; Time scale                                                                                        ; 1 ps                      ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                           ;
++----------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                      ;
++----------------------------------------------------------------------------------------------------------------------+
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator_8_1200mv_85c_slow.vo     ;
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator_8_1200mv_0c_slow.vo      ;
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator_min_1200mv_0c_fast.vo    ;
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator.vo                       ;
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator_8_1200mv_85c_v_slow.sdo  ;
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator_8_1200mv_0c_v_slow.sdo   ;
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator_min_1200mv_0c_v_fast.sdo ;
+; D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/signal_generator_v.sdo                    ;
++----------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit EDA Netlist Writer
+    Info: Version 11.1 Build 173 11/01/2011 SJ Full Version
+    Info: Processing started: Thu Jun 25 02:15:43 2015
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off signal_generator -c signal_generator
+Info (204019): Generated file signal_generator_8_1200mv_85c_slow.vo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file signal_generator_8_1200mv_0c_slow.vo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file signal_generator_min_1200mv_0c_fast.vo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file signal_generator.vo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file signal_generator_8_1200mv_85c_v_slow.sdo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file signal_generator_8_1200mv_0c_v_slow.sdo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file signal_generator_min_1200mv_0c_v_fast.sdo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file signal_generator_v.sdo in folder "D:/FPGA_Projects/fpga-signal-generator/Quartus_project/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 273 megabytes
+    Info: Processing ended: Thu Jun 25 02:15:45 2015
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

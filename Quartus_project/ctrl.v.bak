@@ -1,0 +1,6 @@
+module ctrl(clk, rx);
+input wire clk, rx;
+output wire [7:0] wf; //wave form
+output wire [31:0] adder;// adder value
+
+endmodule

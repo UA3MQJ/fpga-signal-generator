@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jun 25 02:15:33 2015
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Full Version
+Revision Name : signal_generator
+Top-level Entity Name : signal_generator
+Family : Cyclone IV E
+Total logic elements : 233
+    Total combinational functions : 191
+    Dedicated logic registers : 125
+Total registers : 125
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
