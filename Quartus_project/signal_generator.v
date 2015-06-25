@@ -47,11 +47,11 @@ wire [7:0] signal = (waveform ==     SINE) ? sine_out :
                     (waveform ==     TRIA) ? tri_out :
                     (waveform ==   SQUARE) ? square_out :
                     (waveform ==   SAWTRI) ? saw_tri_out :
-                    (waveform ==    NOISE) ? noise_out : 8'd127;
+                    (waveform ==    NOISE) ? noise_out : 8'd127; //TODO
 						  
 assign signal_out = (key1) ? signal : 8'd127; //mute
 						  
-assign hs_out  =  accumulator[31];
+assign hs_out  =  square_out[0];
 
 always @(posedge clk200M) begin
 	accumulator <= accumulator + adder_value;

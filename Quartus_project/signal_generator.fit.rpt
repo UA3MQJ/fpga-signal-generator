@@ -1,5 +1,5 @@
 Fitter report for signal_generator
-Thu Jun 25 02:15:38 2015
+Thu Jun 25 20:00:53 2015
 Quartus II 32-bit Version 11.1 Build 173 11/01/2011 SJ Full Version
 
 
@@ -71,7 +71,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------+
 ; Fitter Summary                                                                 ;
 +------------------------------------+-------------------------------------------+
-; Fitter Status                      ; Successful - Thu Jun 25 02:15:38 2015     ;
+; Fitter Status                      ; Successful - Thu Jun 25 20:00:53 2015     ;
 ; Quartus II 32-bit Version          ; 11.1 Build 173 11/01/2011 SJ Full Version ;
 ; Revision Name                      ; signal_generator                          ;
 ; Top-level Entity Name              ; signal_generator                          ;
@@ -1457,7 +1457,7 @@ This will disable optimization of problematic paths and expose them for further 
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Fitter
     Info: Version 11.1 Build 173 11/01/2011 SJ Full Version
-    Info: Processing started: Thu Jun 25 02:15:34 2015
+    Info: Processing started: Thu Jun 25 20:00:42 2015
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off signal_generator -c signal_generator
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (119006): Selected device EP4CE10E22C8 for design "signal_generator"
@@ -1489,7 +1489,7 @@ Info (176353): Automatically promoted node osc:osc_200M|altpll:altpll_component|
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -1507,8 +1507,8 @@ Info (334004): Delay annotation completed successfully
 Info (144001): Generated suppressed messages file D:/FPGA_Projects/fpga-signal-generator/Quartus_project/signal_generator.fit.smsg
 Info: Quartus II 32-bit Fitter was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 445 megabytes
-    Info: Processing ended: Thu Jun 25 02:15:39 2015
-    Info: Elapsed time: 00:00:05
+    Info: Processing ended: Thu Jun 25 20:00:54 2015
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:05
 
 

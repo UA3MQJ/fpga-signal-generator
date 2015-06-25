@@ -32,7 +32,7 @@ parameter baud_limit = (global_clock_freq / GCD) - baud_freq;
 wire uart_clk;
 baud_gen BG(.clock(clk), .reset(rst), .ce_16(uart_clk), .baud_freq(baud_freq), .baud_limit(baud_limit));
 
-//RVC
+//RCV
 wire [7:0] uart_command;
 wire uart_data_ready;
 
