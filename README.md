@@ -7,6 +7,8 @@ Quartus project for Altera Cyclone iv EP4CE10
 
 Client project - c++\Qt5
 
+https://habr.com/ru/articles/260999/
+
 # Make PC App with serialport
 
 Install serialport dependency for make qt application. 
